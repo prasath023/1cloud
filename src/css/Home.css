@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=IBM+Plex+Mono:wght@300&display=swap');
+
+
+
+@media only screen and (max-width:600px) {
+    .heightDiv{
+height:75vh;
+}
+
+}
+
+
+@media only screen and (min-width:1700px) {
+    .heightDiv{
+padding:0 17rem 0 20rem ;
+}
+.optionsDiv{
+    padding:0 15rem 0 15rem ;
+
+}
+.services{
+    padding:0 15rem 0 15rem ;
+
+}
+.optionsDiv1{
+    display: flex;
+  justify-content: end;
+  
+}
+.optionsDiv2{
+    display: flex;
+  justify-content: start;
+  
+}
+}
+
+
+.textLine{
+font-family:IBM Plex Mono;
+}
+
+.heading{
+font-family:Chakra Petch;
+}
